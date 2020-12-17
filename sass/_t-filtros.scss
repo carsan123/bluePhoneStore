@@ -1,0 +1,120 @@
+// ----------------------------------
+// FILTRO DE ELEMENTOS T-GRID Y T-LISTA
+.filtro-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .btn-grid-lista {
+        
+        a {
+            background: #fff !important;
+            &:hover {
+                border-color: #d3d3d3 !important;
+            }
+            i {
+                color: #707070 !important;
+            }
+        }
+        .active {
+            background: #fad017 !important;
+
+            i {
+                color: #2b2b2b !important;
+            }
+        }
+    }
+
+
+    select {
+        border: 1px solid #48b7f7;
+        padding: 2px;
+        font-size: 14px;
+        // border-radius: 5px;
+        
+        &:focus {
+            outline: none;            
+        } 
+    }    
+    
+    
+}
+
+// box filtros todos los filtros
+.box-filtros {
+
+    display: flex;
+    justify-content: center;
+    
+
+    /* nav-filtro */
+    .nav-filtro {
+    
+        h6 {
+            font-size: 17px !important;
+        }
+        nav ul li select{
+            height: 100%;
+            width: auto;
+            min-width: 50px;
+            font-size: 12.5px;
+            padding: 7px 0;
+        }
+        nav ul li select option {
+            padding: 10px 0;
+            font-size: 15px;
+        }
+    }
+
+    .navbar {
+        .collapse {
+            h6 {
+                margin-bottom: 0;
+                font-size: 13px !important;
+            }
+        }
+    }
+
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .nav-filtro nav {
+        padding: 5px;
+    }
+
+    .nav-filtro {
+        li {
+            padding-bottom: 30px;
+        }
+    }
+    
+    .nav-filtro nav ul li {
+        display: flex;
+    }
+    .filtro-div {
+        justify-content: center;
+        text-align: center;
+    }
+    .nav-filtro nav ul li select{
+        min-width: 250px !important;
+        width: 100%;
+        font-size: 16px;
+        padding: 7px !important;
+    }
+
+
+}
+
+.search-filtro {
+    .dropdown-menu {
+        width: 300px;
+
+        img {
+            width: 60px;
+        }
+    }
+}
+// ----------------------------------
+// FILTRO DE ELEMENTOS T-GRID Y T-LISTA

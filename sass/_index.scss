@@ -1,0 +1,116 @@
+/* ----------------------- */
+/* Index Elementos */
+/* ---------------------- */
+/* ofertas -------------------*/
+
+.offer {
+    background: #ffffff;
+    border-bottom: 4px solid #00A5C4;
+    margin-top: 80px;
+    padding: 30px;
+    border-radius: 5px ;
+
+    .row {
+        // align-items: center;
+        justify-content: center;
+        
+    }
+    .offer-img {
+        max-width: 300px !important;
+    }
+    p {
+        color: #555;
+    } 
+    .offer .row {
+        justify-content: center;
+    }
+}
+
+/* testimonial --------------- */
+.testimonial {
+    width: 100%;
+
+    .row {
+        justify-content: space-around;
+    }
+
+    .card {
+
+        text-align: left;
+        padding:0;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: transform .5s;
+        min-width: 250px;
+
+        img {
+            width: 100%;
+            // border-radius: 50px;
+        }
+        &:hover{
+            transform: translateY(-10px);
+        }
+        .card-body {
+            padding: 10px;
+        }
+        p {
+            font-size: 14px;
+            color: #777;
+        }
+        h3 {
+            font-weight: 600;
+            color: #555;
+            font-size: 16px;
+        }
+        .fa.fa-quote-left {
+            font-size: 30px;
+            color: #1a9e00;
+        }
+    }
+    
+    @media only screen and (max-width: 900px) {
+        .card {
+            // min-width: 200px;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .card {
+            // min-width: 300px;
+            margin-left: -20px;
+        }
+    }
+    
+
+}
+
+/* seccion de imagenes brands */
+/* ------------------ */
+.brands {
+    img {
+        width: 100%;
+        cursor: pointer;
+        
+    }
+    img:hover {
+        filter: drop-shadow(8px 8px 10px #3d78c6)
+    }
+
+    .row {
+        align-items: center;
+    }
+
+}
+/* seccion de imagenes brands */
+/* ------------------ */
+
+.banner_adds {
+    display: grid;
+    grid-template-columns: 1fr;
+    // align-items: center;
+    height: 100%;
+}
+
+
+/* ----------------------- */
+/* Index Elementos */
+/* ---------------------- */

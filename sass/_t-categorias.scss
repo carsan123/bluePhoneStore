@@ -1,0 +1,97 @@
+/* ----------------------- */
+/* Categorias */
+/* ---------------------- */
+.categories {
+    margin: auto;
+    text-align: center;
+
+    h4 {
+        text-align:center;
+        margin-top: 10px;
+        font-weight: 500;
+        position: absolute;
+        top: 0%;
+        left: 10%;
+        background: rgba(41, 41, 41, 0.795);
+        padding: 10px 5px;
+        color:  #ffa319;
+    }
+    img {
+        overflow: hidden; 
+        transform: scale(1);
+        transition: transform .5s ease;
+        border-radius: 2px;
+        opacity: 1;
+    }
+    img:hover {
+        transform: scale(1.07); 
+        opacity: .93;
+    }
+    @media only screen and (max-width: 768px) {
+        h4 {font-size: 17px;}
+        img {min-width: 100px; margin-bottom: 15px;}
+    }
+}
+
+.servicios-bloque  {
+
+    a {
+      
+      button {
+        transition: .6s ease all;
+        color: #00A5C4;
+      }
+      &:hover {
+        button {
+          background: var(--txt-ac-third);
+          color: #ffffff;
+          margin-top: 10px;
+      }
+      }
+      
+      .media {
+
+        // display: block;
+        text-align: center;        
+
+        .media-body {
+          text-align: center;
+
+          h6 { color: #00A5C4; margin-top: 10px;}
+        }
+        .img-card-header {
+          width: 30px;
+          height: 30px;
+      }
+  
+      }
+    }
+  }
+
+#owl-categorias {
+
+  .card {
+    padding-bottom: 0;
+
+    // img {position: relative;}
+  
+    .card-body {
+
+    }
+
+    h2 {
+      font-size: 20px;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      text-align: center;
+      border-bottom: none;
+    }
+
+
+
+  }
+
+}
+/* ----------------------- */
+/* Categorias */
+/* ---------------------- */
